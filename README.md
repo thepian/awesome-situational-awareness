@@ -243,6 +243,9 @@ Codes for popular action recognition models, written based on pytorch, verified 
 ## Object Recognition
 
 ### Object Detection
+* [Training a Custom Object Detection Model With Yolo-V5](https://medium.com/analytics-vidhya/training-a-custom-object-detection-model-with-yolo-v5-aa9974c07088)
+Using Google Colab.
+* [Object Detection on Custom Dataset with YOLO (v5) using PyTorch and Python](https://curiousily.com/posts/object-detection-on-custom-dataset-with-yolo-v5-using-pytorch-and-python/)
 * [Deformable Convolutional Networks](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf) - J. Dai et al., ICCV2017. [[official code]](https://github.com/msracver/Deformable-ConvNets)
 * [Detectron](https://github.com/facebookresearch/Detectron) - Open Source Object Detection Framework from Facebook AI Research. Includes Mask R-CNN, FPN, and etc. Caffe2 implementation.
 * [Mask R-CNN](https://arxiv.org/abs/1703.06870) - K. He et al, [[Detectron]](https://github.com/facebookresearch/Detectron), [[TensorFlow + Keras]](https://github.com/matterport/Mask_RCNN), [[MXNet]](https://github.com/TuSimple/mx-maskrcnn), [[TensorFlow]](https://github.com/CharlesShang/FastMaskRCNN), [[PyTorch]](https://github.com/felixgwu/mask_rcnn_pytorch) - State-of-the-art object detection/instance segmentation algorithm.
@@ -325,8 +328,9 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * `Visual Genome`, `2016` - [Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations](https://visualgenome.org/static/paper/Visual_Genome.pdf) - Ranjay Krishna et al, [official web] (https://visualgenome.org/).
 * `VRD`, `ECCV 2016` - [Visual Relationship Detection with Language Priors](https://cs.stanford.edu/people/ranjaykrishna/vrd/) - Lu et al, ECCV 2016 Oral.
 * `VidVRD`, `ACM MM 2017` - [Video Visual Relation Dataset](https://lms.comp.nus.edu.sg/research/VidVRD.html) - Xindi Shang et al, 2018 ACM Multimedia Conference, [VidVRD-helper](https://github.com/xdshang/VidVRD-helper).
-
-
+* [20 Free Image Datasets for Computer Vision](https://lionbridge.ai/datasets/20-best-image-datasets-for-computer-vision/)
+* [How to Create Your Own Image Dataset for Deep Learning with googleimagedownloader](https://towardsdatascience.com/how-to-create-your-own-image-dataset-for-deep-learning-b53f1c22c443)
+* [How to scrape Google for Images to train your Machine Learning classifiers on](https://medium.com/@intprogrammer/how-to-scrape-google-for-images-to-train-your-machine-learning-classifiers-on-565076972ce)
 
 
 ## Competitions
@@ -336,8 +340,11 @@ Codes for popular action recognition models, written based on pytorch, verified 
 
 ### Dataset Preparation
 
+* [Open Images Dataset V6 + Extensions](https://storage.googleapis.com/openimages/web/index.html) Download specific labels with [oidv6](https://pypi.org/project/oidv6/)
 * [Synthetic Data Generation for Object Detection Presentation](https://www.hackster.io/dmitrywat/synthetic-data-generation-for-object-detection-e0f023)
 * [SynDataGeneration](https://github.com/debidatta/syndata-generation) Generate synthetic scenes for the task of instance/object detection
+* [How to label custom images for YOLO – YOLO 3](https://cloudxlab.com/blog/label-custom-images-for-yolo/)
+
 
 ### Tools
 * [Weights and Biases](wandb.ai) Experiment tracking, logging, comparison. [Examples](https://docs.wandb.ai/examples). [Saving & Restoring](https://wandb.ai/lavanyashukla/save_and_restore/reports/Saving-and-Restoring-Models-with-W-B--Vmlldzo3MDQ3Mw).
@@ -345,6 +352,14 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [hackster.io](hackster.io) Hardware AI community
 * [aXeleRate](https://github.com/AIWintermuteAI/aXeleRate/blob/master/axelerate/infer.py) Tools to generate models for the edge K210/Coral/etc made by Hardware AI
 * [PyTorch for iOS](https://pytorch.org/mobile/ios/) Demo for MobileNet v2 on iOS.
+* [GTX1070 + OS X Sierra + PyTorch](https://gist.github.com/dandanwei/18708e7bd5fd2b227f86bca668343093)
+* [TensorFlow + OS X Sierra](https://gist.github.com/geekcui/d0800d62e377e0103b1cc2b889ed1128)
+* [PyTorch ARM Mac 16-core Neural Engine](https://github.com/pytorch/pytorch/issues/47688)
+* [Leveraging ML Compute for Accelerated Training on Mac](https://machinelearning.apple.com/updates/ml-compute-training-on-mac)
+* [Building PyTorch on ROCm](https://lernapparat.de/pytorch-rocm/). [prebuilt packages](https://rocmdocs.amd.com/en/latest/Deep_learning/Deep-learning.html#pytorch)
+
+* [Get SH*T Done with PyTorch](https://github.com/curiousily/Getting-Things-Done-with-Pytorch). [Read Here](https://bit.ly/gtd-with-pytorch).
+
 
 
 ## Licenses
