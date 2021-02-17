@@ -266,18 +266,31 @@ Using Google Colab.
 
 ### Face Recognition
 * [RetinaFace on PyTorch](https://github.com/biubug6/Pytorch_Retinaface) MobileNet 0.25 / ResNet50. [Custom Train & Inference](https://github.com/ternaus/retinaface).  [Paper: Single-stage Dense Face Localisation](https://arxiv.org/abs/1905.00641).
+* [awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition)
+* [Tencent FaceDetection DSFD](https://github.com/Tencent/FaceDetection-DSFD)
+
+### Human Detection Repositories
+
+* [YOLO-Hand-Detection](https://github.com/cansik/yolo-hand-detection) variants including YOLOv4-Tiny Cross-Hands.
+* [Finger Detection and Tracking](https://github.com/amarlearning/Finger-Detection-and-Tracking)
+* [Unified Gesture Recognition and Fingertip Detection](https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection)
+* [YoloV4_Dectection_Example.ipynb](https://colab.research.google.com/github/sicara/tf2-yolov4/blob/master/notebooks/YoloV4_Dectection_Example.ipynb#scrollTo=qhgxoREBFHKn)
 
 
 ## Pose Estimation
 
 ### Pose Estimation
-* [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) - PyTorch based realtime and accurate pose estimation and tracking tool from SJTU.
+* [Alpha Pose](http://www.mvig.org/research/alphapose.html) is an accurate multi-person pose estimator, which is the first [open-source](https://github.com/MVIG-SJTU/AlphaPose) system that achieves 70+ mAP (72.3 mAP) on COCO dataset and 80+ mAP (82.1 mAP) on MPII dataset. To match poses that correspond to the same person across frames, we also provide an efficient online pose tracker called Pose Flow. It is the first open-source online pose tracker that achieves both 60+ mAP (66.5 mAP) and 50+ MOTA (58.3 MOTA) on PoseTrack Challenge dataset.
 * [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/abs/1712.09184) - R. Girdhar et al., arXiv2017.
 * [OpenPose Library](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - Caffe based realtime pose estimation library from CMU.
 * [Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050) - Z. Cao et al, CVPR2017. [[code]](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation) depends on the [[caffe RT pose]](https://github.com/CMU-Perceptual-Computing-Lab/caffe_rtpose.git) - Earlier version of OpenPose from CMU.
 * [DensePose](https://arxiv.org/abs/1802.00434v1) [[code]](https://github.com/facebookresearch/DensePose) - Dense pose human estimation in the wild implemented in the Detectron framework.
 * [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](https://arxiv.org/abs/1807.04067) - M. Kocabas et al, ECCV2018. [[code]](https://github.com/salihkaragoz/pose-residual-network-pytorch)
 * [DeepLabCut: markerless pose estimation of user-defined body parts with deep learning](https://www.nature.com/articles/s41593-018-0209-y) - A. Mathis et al, Nature Neuroscience 2018. [[code]](https://github.com/DeepLabCut/DeepLabCut)
+
+### Pose Repositories
+
+* [AlphaPose for pytorch](https://github.com/MVIG-SJTU/AlphaPose) - PyTorch based realtime and accurate pose estimation and tracking tool from SJTU.
 
 
 ## Visual Relationship Detection
